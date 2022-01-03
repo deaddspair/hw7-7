@@ -1,0 +1,216 @@
+.footer {
+  background-color: var(--main-bg-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer > .container {
+  display: flex;
+}
+
+.footer__list {
+  padding-left: 0;
+  margin: 0 auto;
+}
+
+.footer__item {
+  margin-top: 9px;
+}
+
+.footer__item:first-child {
+  margin-top: 20px;
+}
+
+.footer__item:last-child {
+  padding-bottom: 0;
+}
+
+.footer__logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--main-hover-color);
+}
+
+.footer__logotyp {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--main-btn-color);
+  transition: color 250ms linear;
+}
+
+.footer__logotyp:hover,
+.footer__logotyp:focus {
+  color: var(--main-hover-color);
+}
+
+.footer__nav-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-btn-color);
+  transition: color 250ms linear;
+}
+
+.footer__nav-link:hover,
+.footer__nav-link:focus {
+  color: var(--main-hover-color);
+}
+
+.footer__mail {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  transition: color 250ms linear;
+}
+
+.footer__tel {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  transition: color 250ms linear;
+}
+
+.footer__mail:hover,
+.footer__mail:focus {
+  color: var(--main-hover-color);
+}
+
+.footer__tel:hover,
+.footer__tel:focus {
+  color: var(--main-hover-color);
+}
+
+.footer__nav {
+  margin-left: 70px;
+  box-sizing: inherit;
+}
+
+.footer__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--main-btn-color);
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.footer__social-list {
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.footer__social-item {
+  width: 44px;
+  height: 44px;
+}
+
+.footer__social-item + .footer__social-item {
+  margin-left: 10px;
+}
+
+.footer__social-link {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.1);
+  margin-right: 10px;
+  filter: drop-shadow(0px 4px 4px, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25));
+  color: var(--main-btn-color);
+  transition: 250ms linear;
+}
+
+.footer__social-icon {
+  fill: var(--main-btn-color);
+}
+
+.footer__social-link:hover,
+.footer__social-link:focus {
+  background-color: var(--main-hover-color);
+  color: var(--main-btn-color);
+}
+
+.footer__right-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 0px;
+  padding-bottom: 20px;
+}
+.footer__send-logo {
+  margin-left: 10px;
+}
+.footer__right {
+  display: flex;
+}
+.footer__swap {
+  margin-left: 93px;
+}
+.foot__btn {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  width: 200px;
+  height: 50px;
+  margin-left: 12px;
+  padding: 0px;
+  padding-left: 29px;
+  border: 0px;
+}
+
+.footer__input-class {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  outline: none;
+  width: 358px;
+  height: 50px;
+  background-color: #2f303a;
+  padding: 15px;
+}
+
+.footer__input-class:focus {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
